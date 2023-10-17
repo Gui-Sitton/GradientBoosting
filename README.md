@@ -62,5 +62,11 @@ import **xgboost** as xgb
 
 from **sklearn.model_selection** import GridSearchCV
 
+## Conclusion
 
+The best model was catboost with the hyperparameters: {'depth': 10, 'iterations': 300, 'l2_leaf_reg': 1, 'learning_rate': 0.2}. Obtaining a score of -1747.204790443197 in negative root mean squared error.
+
+This means that the training set was 1747.204790443197 Euros away from the ideal price. And the prediction, together with the test set, was 1739.5135540945873 Euros away from the ideal price, achieving even better performance and all this in just 51.2 seconds for the best model fit, which is excellent.
+
+For example, if you put your car in this project it would be approximately 1739.5135540945873 Euros away from the ideal price. Considering this dataframe's price range of up to 20000, a variance of less than 2000 is a good performance, as it is less than 10%.
 
