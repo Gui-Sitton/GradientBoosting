@@ -33,31 +33,31 @@ the time required for training
 
 ## Libraries used
 
-import pandas as pd
+import **pandas** as pd
 
-import numpy as np
+import **numpy** as np
 
-import seaborn as sns
+import **seaborn** as sns
 
-from matplotlib import pyplot as plt
+from **matplotlib** import pyplot as plt
 
-from sklearn.model_selection import train_test_split 
+from **sklearn.model_selection** import train_test_split 
 
-import lightgbm as lgb
+import **lightgbm** as lgb
 
-from sklearn import metrics
+from **sklearn** import metrics
 
-from sklearn.model_selection import cross_val_score
+from **sklearn.model_selection** import cross_val_score
 
-from sklearn.metrics import mean_squared_error
+from **sklearn.metrics** import mean_squared_error
 
-from sklearn.ensemble import RandomForestRegressor
+from **sklearn.ensemble** import RandomForestRegressor
 
-from catboost import CatBoostRegressor
+from **catboost** import CatBoostRegressor
 
-import xgboost as xgb
+import **xgboost** as xgb
 
-from sklearn.model_selection import GridSearchCV
+from **sklearn.model_selection** import GridSearchCV
 
 
 
